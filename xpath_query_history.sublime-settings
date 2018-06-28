@@ -1,0 +1,37 @@
+{
+	"history":
+	[
+		[
+			"//platform[@name='testauto']//server[contains(translate(@type,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'st-bws') and contains(translate(@roles,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'bws-2012-server')",
+			"D:\\nreijers\\echt_alles\\Deploy\\2.00\\bin\\otap.meta\\Platforms\\dsw\\platforms.xml"
+		],
+		[
+			"//platform[@name='testauto']//server[contains(translate(@type,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'st-web') and contains(translate(@roles,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'web-2012-server')]",
+			"D:\\nreijers\\echt_alles\\Deploy\\2.00\\bin\\otap.meta\\Platforms\\dsw\\platforms.xml"
+		],
+		[
+			"//platform[@name='testauto']//server[contains(translate(@type,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'st-bws') and contains(translate(@roles,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'uddi-server')]",
+			"D:\\nreijers\\echt_alles\\Deploy\\2.00\\bin\\otap.meta\\Platforms\\dsw\\platforms.xml"
+		],
+		[
+			"//platform[@name='testauto']//server[contains(translate(@type,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'st-bws') and contains(translate(@roles,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'uddi-server') and @ignore-status!='true']",
+			"D:\\nreijers\\echt_alles\\Deploy\\2.00\\bin\\otap.meta\\Platforms\\dsw\\platforms.xml"
+		],
+		[
+			"//platform[@name='testauto']//server[contains(translate(@type,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'st-bws') and contains(translate(@roles,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'uddi-server') and not(@ignore-status='true')]",
+			"D:\\nreijers\\echt_alles\\Deploy\\2.00\\bin\\otap.meta\\Platforms\\dsw\\platforms.xml"
+		],
+		[
+			"//platform[@name='testauto']//server[contains(translate(@alias,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'server-vecozo')]",
+			"\\\\d1\\dfs\\Release\\Deploy\\2.00\\bin\\otap.meta\\Platforms\\dsw\\platforms.xml"
+		],
+		[
+			"//platform[@name='testauto']//server[contains(translate(@alias,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'server-vecozo')]",
+			"buffer_83"
+		],
+		[
+			"//platform[@name='acceptatie']//server[concat(','contains(translate(@alias,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), ',server-vecozo,')]",
+			"buffer_119"
+		]
+	]
+}
