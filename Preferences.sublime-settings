@@ -1,16 +1,17 @@
 {
-	"color_scheme": "Packages/User/ArtSchool.tmTheme",
 	"file_exclude_patterns":
 	[
 		"*~"
 	],
-	"font_face": "DejaVu Sans Mono",
-	"font_size": 8,
 	"highlight_line": true,
+	"color_scheme": "Packages/Colorsublime - Themes/ArtSchool.tmTheme",
+	"font_face": "courier prime code",
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
-	"theme": "Adaptive.sublime-theme"
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
