@@ -27,11 +27,19 @@
 		],
 		[
 			"//platform[@name='testauto']//server[contains(translate(@alias,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'server-vecozo')]",
-			"buffer_83"
+			"global"
 		],
 		[
 			"//platform[@name='acceptatie']//server[concat(','contains(translate(@alias,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), ',server-vecozo,')]",
-			"buffer_119"
+			"global"
+		],
+		[
+			"//platform[@name='acceptatie']//server[contains(translate(concat(',',@alias,','),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), ',server-vecozo,')]",
+			"global"
+		],
+		[
+			"//platform[@name='acceptatie']//server[contains(translate(concat(',',@alias,','),'ABCDEFGHIJKLMNOPQRSTUVWXYZ ','abcdefghijklmnopqrstuvwxyz'), ',server-vecozo,')]",
+			"global"
 		]
 	]
 }
