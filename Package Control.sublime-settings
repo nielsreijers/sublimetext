@@ -5,8 +5,10 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AlignTab",
 		"BracketHighlighter",
+		"Colorsublime",
 		"Compare Side-By-Side",
 		"Filter Lines",
 		"Git",
@@ -15,8 +17,10 @@
 		"Line Endings Unify",
 		"Package Control",
 		"PowerShell",
-		"Text Pastry",
 		"WordCount",
-		"xpath"
+		"xpath",
+		"SublimeHaskell",
+		"SublimeREPL",
+		"Text Pastry"
 	]
 }

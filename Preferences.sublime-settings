@@ -20,5 +20,6 @@
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
-	"theme": "Adaptive.sublime-theme"
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
