@@ -13,14 +13,14 @@
 		"Filter Lines",
 		"Git",
 		"HexViewer",
+		"Highlight Duplicates",
 		"Indent XML",
 		"Line Endings Unify",
 		"Package Control",
 		"PowerShell",
-		"WordCount",
-		"xpath",
-		"SublimeHaskell",
 		"SublimeREPL",
-		"Text Pastry"
+		"Text Pastry",
+		"WordCount",
+		"xpath"
 	]
 }

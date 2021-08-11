@@ -1,2 +1,6 @@
 [	
+    {
+        "keys": ["ctrl+shift+o"],
+        "command": "prompt_open_folder",
+    },
 ]
