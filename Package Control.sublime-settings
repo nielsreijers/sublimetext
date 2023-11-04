@@ -20,7 +20,7 @@
 		"PowerShell",
 		"SublimeREPL",
 		"Text Pastry",
-		"WordCount",
-		"xpath"
-	]
+		"xpath",
+		"WordingStatus"
+	],
 }
